@@ -2,7 +2,7 @@ class Tree:
   height = 256.2414
   leafs = 6666667
   age = 101.5
-  width = 5.1
+  width = 5.000000000000000001
   
   def __init__(self, type):
     self.type = type
@@ -15,6 +15,9 @@ class Tree:
     
   def more_height(self):
     self.height += 1.99
+
+  def more_width(self):
+    self.width += 0.1
 
 
 my_tree = Tree("baobab")
